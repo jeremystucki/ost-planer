@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Software Engineering STD_21 (Profil)",
+    "url": "https://studien.rj.ost.ch/allStudies/10192_SE.html",
+    "modules": [
+      ".Net Technologien (M_MsTe / I)",
+      "Application Architecture (M_AppArch / I)",
+      "Betriebssysteme 2 (M_Bsys2 / I)",
+      "C++ (M_CPl / I)",
+      "Distributed Systems (M_DSy / I)",
+      "Parallele Programmierung (M_ParProg / I)",
+      "Patterns und Frameworks (M_PF / I)",
+      "Secure Software (M_SecSW / I)",
+      "Secure Software (M_SecSoW / I)"
+    ]
+  },
+  {
+    "name": "Frontend Engineering STD_21 (Profil)",
+    "url": "https://studien.rj.ost.ch/allStudies/10193_FrEng.html",
+    "modules": [
+      "AI Applications (M_AIAp / I)",
+      "Application Architecture (M_AppArch / I)",
+      "Cloud Solutions (M_CldSol / I)",
+      "Computer Grafik (M_ComGra / I)",
+      "Human Computer Interaction Design (M_HCD / I)",
+      "Mobile and GUI Engineering (M_MGE / I)",
+      "Web Engineering 2 (M_WE2 / I)",
+      "Web Engineering 3 (M_WE3 / I)"
+    ]
+  },
+  {
+    "name": "Cybersecurity STD_21 (Profil)",
+    "url": "https://studien.rj.ost.ch/allStudies/10194_CySec.html",
+    "modules": [
+      "Computernetze 2 (M_CN2 / I)",
+      "Cyber Defense (M_CyDef / I)",
+      "Hacking Lab (M_HackL / I)",
+      "Incident Response (M_IncResp / I)",
+      "Network and IoT Security (M_NISec / I)",
+      "Platform Security (M_PFSec / I)",
+      "Secure Software (M_SecSW / I)",
+      "Secure Software (M_SecSoW / I)",
+      "Web Engineering 2 (M_WE2 / I)"
+    ]
+  },
+  {
+    "name": "Network and Cloud Infrastructure STD_21 (Profil)",
+    "url": "https://studien.rj.ost.ch/allStudies/10195_NetCloud.html",
+    "modules": [
+      "Cloud Infrastructure (M_CldInf / I)",
+      "Cloud Operations (M_CldOp / I)",
+      "Computernetze 2 (M_CN2 / I)",
+      "Network and IoT Security (M_NISec / I)",
+      "Network Automation (M_NetAut / I)",
+      "Service Development (ITIL) (M_ServDev / I)",
+      "Software Defined Networks (M_SDW / I)",
+      "Wireless and IoT (M_WsoT / I)",
+      "Wireless and IoT (M_WIoT / I)"
+    ]
+  },
+  {
+    "name": "Data Engineering and Machine Intelligence STD_21 (Profil)",
+    "url": "https://studien.rj.ost.ch/allStudies/10196_DaEnMaIn.html",
+    "modules": [
+      "AI Applications (M_AIAp / I)",
+      "Blockchain (M_BlCh / I)",
+      "Cloud Solutions (M_CldSol / I)",
+      "Data Analytics (M_DatAna / I)",
+      "Data Engineering (M_DatEng / I)",
+      "Deep Learning (M_DL / E)",
+      "Mathematical Foundations for Machine Learning (M_MathFML / MN)",
+      "Statistical Machine Learning (M_ML / E)"
+    ]
+  }
+]
