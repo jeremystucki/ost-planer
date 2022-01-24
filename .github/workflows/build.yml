@@ -1,0 +1,36 @@
+name: Build
+on: [push]
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install nix
+        uses: cachix/install-nix-action@v15
+      - name: Fetch Data
+        run: nix-shell --pure --run 'python crawler.py'
+      - name: Archive Output
+        run: tar -cvf artifact.tar data
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: github-pages
+          path: artifact.tar
+          if-no-files-found: warn
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      pages: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to Pages
+        id: deployment
+        uses: actions/deploy-pages@v1-beta
