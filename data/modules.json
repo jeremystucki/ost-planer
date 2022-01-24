@@ -1,0 +1,882 @@
+[
+  {
+    "name": ".Net Technologien (M_MsTe / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37247_M_MsTe.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "AI Applications (M_AIAp / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38785_M_AIAp.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Application Architecture (M_AppArch / I)",
+    "url": "https://studien.rj.ost.ch/allModules/28236_M_AppArch.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Aufbau Informatik (M_KatAufbauInf / I)",
+    "url": "https://studien.rj.ost.ch/allModules/17014_M_KatAufbauInf.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Betriebssysteme 2 (M_Bsys2 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37903_M_Bsys2.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Blockchain (M_BlCh / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39041_M_BlCh.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "C++ (M_CPl / I)",
+    "url": "https://studien.rj.ost.ch/allModules/24357_M_CPl.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "C++ Advanced (M_CPlA / I)",
+    "url": "https://studien.rj.ost.ch/allModules/28684_M_CPlA.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Cloud Infrastructure (M_CldInf / I)",
+    "url": "https://studien.rj.ost.ch/allModules/29855_M_CldInf.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Cloud Operations (M_CldOp / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37161_M_CldOp.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Cloud Solutions (M_CldSol / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37167_M_CldSol.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Compilerbau (M_CoBau / I)",
+    "url": "https://studien.rj.ost.ch/allModules/40663_M_CoBau.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Computer Grafik (M_ComGra / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38836_M_ComGra.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Computernetze 2 (M_CN2 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/23311_M_CN2.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Cyber Defense (M_CyDef / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38551_M_CyDef.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Data Analytics (M_DatAna / I)",
+    "url": "https://studien.rj.ost.ch/allModules/36034_M_DatAna.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Data Engineering (M_DatEng / I)",
+    "url": "https://studien.rj.ost.ch/allModules/36038_M_DatEng.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Deep Learning (M_DL / E)",
+    "url": "https://studien.rj.ost.ch/allModules/31834_M_DL.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Distributed Systems (M_DSy / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39054_M_DSy.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Hacking Lab (M_HackL / I)",
+    "url": "https://studien.rj.ost.ch/allModules/36457_M_HackL.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Human Computer Interaction Design (M_HCD / I)",
+    "url": "https://studien.rj.ost.ch/allModules/32684_M_HCD.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Image Processing and Computer Vision 1 (M_IPCV1 / E)",
+    "url": "https://studien.rj.ost.ch/allModules/36264_M_IPCV1.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Image Processing and Computer Vision 2 (M_IPCV2 / E)",
+    "url": "https://studien.rj.ost.ch/allModules/36269_M_IPCV2.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Incident Response (M_IncResp / I)",
+    "url": "https://studien.rj.ost.ch/allModules/36473_M_IncResp.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Mobile and GUI Engineering (M_MGE / I)",
+    "url": "https://studien.rj.ost.ch/allModules/28254_M_MGE.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Network and IoT Security (M_NISec / I)",
+    "url": "https://studien.rj.ost.ch/allModules/36483_M_NISec.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Network Automation (M_NetAut / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39128_M_NetAut.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Parallele Programmierung (M_ParProg / I)",
+    "url": "https://studien.rj.ost.ch/allModules/31603_M_ParProg.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Patterns und Frameworks (M_PF / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39045_M_PF.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Platform Security (M_PFSec / I)",
+    "url": "https://studien.rj.ost.ch/allModules/36471_M_PFSec.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Secure Software (M_SecSoW / I)",
+    "url": "https://studien.rj.ost.ch/allModules/40311_M_SecSoW.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Secure Software (M_SecSW / I)",
+    "url": "https://studien.rj.ost.ch/allModules/36488_M_SecSW.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Service Development (ITIL) (M_ServDev / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37171_M_ServDev.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Software Defined Networks (M_SDW / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37152_M_SDW.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Statistical Machine Learning (M_ML / E)",
+    "url": "https://studien.rj.ost.ch/allModules/31838_M_ML.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "System Modeling and Simulation (M_SModSim / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38938_M_SModSim.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Web Engineering 2 (M_WE2 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38945_M_WE2.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Web Engineering 3 (M_WE3 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38901_M_WE3.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Wireless and IoT (M_WsoT / I)",
+    "url": "https://studien.rj.ost.ch/allModules/40038_M_WsoT.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "Wireless and IoT (M_WIoT / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37157_M_WIoT.html",
+    "category": "Aufbau (I_Auf):"
+  },
+  {
+    "name": "SE Practices 1 (M_SEP1 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39203_M_SEP1.html",
+    "category": "Engineering Practice (I_EP):"
+  },
+  {
+    "name": "SE Practices 2 (M_SEP2 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39000_M_SEP2.html",
+    "category": "Engineering Practice (I_EP):"
+  },
+  {
+    "name": "SE Project (M_SEProj / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39012_M_SEProj.html",
+    "category": "Engineering Practice (I_EP):"
+  },
+  {
+    "name": "Software-Engineering 1 (M_SE1 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37893_M_SE1.html",
+    "category": "Engineering Practice (I_EP):"
+  },
+  {
+    "name": "Software-Engineering 2 (M_SE2 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37191_M_SE2.html",
+    "category": "Engineering Practice (I_EP):"
+  },
+  {
+    "name": "Business und Recht 1 (M_BuRe1 / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/20780_M_BuRe1.html",
+    "category": "Gesellschaft, Wirtschaft und Recht (I-gwr):"
+  },
+  {
+    "name": "Business und Recht 2 (a) (M_BuRe2a / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/20794_M_BuRe2a.html",
+    "category": "Gesellschaft, Wirtschaft und Recht (I-gwr):"
+  },
+  {
+    "name": "Digital Business f\u00fcr Informatik (M_DigBusI / I)",
+    "url": "https://studien.rj.ost.ch/allModules/40316_M_DigBusI.html",
+    "category": "Gesellschaft, Wirtschaft und Recht (I-gwr):"
+  },
+  {
+    "name": "Gesellschaft, Wirtschaft und Recht (M_KatGWR / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/38418_M_KatGWR.html",
+    "category": "Gesellschaft, Wirtschaft und Recht (I-gwr):"
+  },
+  {
+    "name": "Gesellschaft, Wirtschaft und Recht 2 (M_KatGWR2 / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/17152_M_KatGWR2.html",
+    "category": "Gesellschaft, Wirtschaft und Recht (I-gwr):"
+  },
+  {
+    "name": "Projekt- und Qualit\u00e4tsmanagement (M_PmQm / I)",
+    "url": "https://studien.rj.ost.ch/allModules/28231_M_PmQm.html",
+    "category": "Gesellschaft, Wirtschaft und Recht (I-gwr):"
+  },
+  {
+    "name": "Volkswirtschaft und Technikgeschichte (M_VwlTg / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/24472_M_VwlTg.html",
+    "category": "Gesellschaft, Wirtschaft und Recht (I-gwr):"
+  },
+  {
+    "name": "Wirtschaftsinformatik 2: Gesch\u00e4ftsprozessmanagement (M_WI2 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/24453_M_WI2.html",
+    "category": "Gesellschaft, Wirtschaft und Recht (I-gwr):"
+  },
+  {
+    "name": ".Net Technologien (M_MsTe / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37247_M_MsTe.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "AI Applications (M_AIAp / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38785_M_AIAp.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "AI Foundations (M_AIFo / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38784_M_AIFo.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Algorithmen und Datenstrukturen (M_AlgDat / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38881_M_AlgDat.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Application Architecture (M_AppArch / I)",
+    "url": "https://studien.rj.ost.ch/allModules/28236_M_AppArch.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Automaten und Sprachen (M_AutoSpr / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/24404_M_AutoSpr.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Automatisierung mit Python (M_AutPy / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38879_M_AutPy.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Bachelor-Arbeit Informatik (M_BAI14 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/24809_M_BAI14.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Betriebssysteme 1 (M_Bsys1 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39080_M_Bsys1.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Betriebssysteme 2 (M_Bsys2 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37903_M_Bsys2.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Blockchain (M_BlCh / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39041_M_BlCh.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "C++ (M_CPl / I)",
+    "url": "https://studien.rj.ost.ch/allModules/24357_M_CPl.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "C++ Advanced (M_CPlA / I)",
+    "url": "https://studien.rj.ost.ch/allModules/28684_M_CPlA.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Cloud Infrastructure (M_CldInf / I)",
+    "url": "https://studien.rj.ost.ch/allModules/29855_M_CldInf.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Cloud Operations (M_CldOp / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37161_M_CldOp.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Cloud Solutions (M_CldSol / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37167_M_CldSol.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Compilerbau (M_CoBau / I)",
+    "url": "https://studien.rj.ost.ch/allModules/40663_M_CoBau.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Computer Grafik (M_ComGra / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38836_M_ComGra.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Computernetze 1 (M_CN1 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39084_M_CN1.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Computernetze 2 (M_CN2 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/23311_M_CN2.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Cyber Defense (M_CyDef / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38551_M_CyDef.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Cyber Security Foundations (M_CySec / I)",
+    "url": "https://studien.rj.ost.ch/allModules/36478_M_CySec.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Data Analytics (M_DatAna / I)",
+    "url": "https://studien.rj.ost.ch/allModules/36034_M_DatAna.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Data Engineering (M_DatEng / I)",
+    "url": "https://studien.rj.ost.ch/allModules/36038_M_DatEng.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Datenbanksysteme 1 (M_Dbs1 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39093_M_Dbs1.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Deep Learning (M_DL / E)",
+    "url": "https://studien.rj.ost.ch/allModules/31834_M_DL.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Digitale Codierungen (M_DigCod / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38920_M_DigCod.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Diskrete Mathematik f\u00fcr Informatik  (M_DMI / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/24442_M_DMI.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Distributed Systems (M_DSy / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39054_M_DSy.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Functional Programming  (M_FP / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39143_M_FP.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Funktionale Programmierung (M_FunProg / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38928_M_FunProg.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Hacking Lab (M_HackL / I)",
+    "url": "https://studien.rj.ost.ch/allModules/36457_M_HackL.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Human Computer Interaction Design (M_HCD / I)",
+    "url": "https://studien.rj.ost.ch/allModules/32684_M_HCD.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Image Processing and Computer Vision 1 (M_IPCV1 / E)",
+    "url": "https://studien.rj.ost.ch/allModules/36264_M_IPCV1.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Image Processing and Computer Vision 2 (M_IPCV2 / E)",
+    "url": "https://studien.rj.ost.ch/allModules/36269_M_IPCV2.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Incident Response (M_IncResp / I)",
+    "url": "https://studien.rj.ost.ch/allModules/36473_M_IncResp.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Mobile and GUI Engineering (M_MGE / I)",
+    "url": "https://studien.rj.ost.ch/allModules/28254_M_MGE.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Network and IoT Security (M_NISec / I)",
+    "url": "https://studien.rj.ost.ch/allModules/36483_M_NISec.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Network Automation (M_NetAut / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39128_M_NetAut.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Objektorientierte Programmierung 1 (M_OOP1 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38872_M_OOP1.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Objektorientierte Programmierung 2 (M_OOP2 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38910_M_OOP2.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Parallele Programmierung (M_ParProg / I)",
+    "url": "https://studien.rj.ost.ch/allModules/31603_M_ParProg.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Patterns und Frameworks (M_PF / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39045_M_PF.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Platform Security (M_PFSec / I)",
+    "url": "https://studien.rj.ost.ch/allModules/36471_M_PFSec.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Rahmen Informatik (M_KatRahmenInf / I)",
+    "url": "https://studien.rj.ost.ch/allModules/40619_M_KatRahmenInf.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "SE Practices 1 (M_SEP1 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39203_M_SEP1.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "SE Practices 2 (M_SEP2 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39000_M_SEP2.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "SE Project (M_SEProj / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39012_M_SEProj.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Secure Software (M_SecSoW / I)",
+    "url": "https://studien.rj.ost.ch/allModules/40311_M_SecSoW.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Secure Software (M_SecSW / I)",
+    "url": "https://studien.rj.ost.ch/allModules/36488_M_SecSW.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Service Development (ITIL) (M_ServDev / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37171_M_ServDev.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Software Defined Networks (M_SDW / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37152_M_SDW.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Software-Engineering 1 (M_SE1 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37893_M_SE1.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Software-Engineering 2 (M_SE2 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37191_M_SE2.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Statistical Machine Learning (M_ML / E)",
+    "url": "https://studien.rj.ost.ch/allModules/31838_M_ML.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Studienarbeit Informatik (M_SAI21 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39016_M_SAI21.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "System Modeling and Simulation (M_SModSim / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38938_M_SModSim.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Web Engineering 1 (M_WE1 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38891_M_WE1.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Web Engineering 2 (M_WE2 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38945_M_WE2.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Web Engineering 3 (M_WE3 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38901_M_WE3.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Wireless and IoT (M_WsoT / I)",
+    "url": "https://studien.rj.ost.ch/allModules/40038_M_WsoT.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "Wireless and IoT (M_WIoT / I)",
+    "url": "https://studien.rj.ost.ch/allModules/37157_M_WIoT.html",
+    "category": "Informatik (I_Inf):"
+  },
+  {
+    "name": "English: How Things work (M_EnglHTw / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/22130_M_EnglHTw.html",
+    "category": "Kommunikation und Englisch (I_KomEng):"
+  },
+  {
+    "name": "English: Selling Technology (M_SelTec / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/26328_M_SelTec.html",
+    "category": "Kommunikation und Englisch (I_KomEng):"
+  },
+  {
+    "name": "English: The World of Science (M_EnglScience / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/36091_M_EnglScience.html",
+    "category": "Kommunikation und Englisch (I_KomEng):"
+  },
+  {
+    "name": "English: Where Tech Meets BEC (M_TecBEC / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/28076_M_TecBEC.html",
+    "category": "Kommunikation und Englisch (I_KomEng):"
+  },
+  {
+    "name": "F\u00fchrungskommunikation im internationalen Arbeitsmarkt (M_FKIA / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/24427_M_FKIA.html",
+    "category": "Kommunikation und Englisch (I_KomEng):"
+  },
+  {
+    "name": "Kommunikation 2 f\u00fcr IngenieurInnen  (Teamkommunikation) (M_KommIng2 / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/37397_M_KommIng2.html",
+    "category": "Kommunikation und Englisch (I_KomEng):"
+  },
+  {
+    "name": "Kommunikation und Englisch (M_KatKOENG1 / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/40469_M_KatKOENG1.html",
+    "category": "Kommunikation und Englisch (I_KomEng):"
+  },
+  {
+    "name": "Kommunikation und Sprache 2 (M_KatKoSpra2 / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/31904_M_KatKoSpra2.html",
+    "category": "Kommunikation und Englisch (I_KomEng):"
+  },
+  {
+    "name": "Rhetorische Kommunikation f\u00fcr IngenieurInnen (M_RheKI / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/31909_M_RheKI.html",
+    "category": "Kommunikation und Englisch (I_KomEng):"
+  },
+  {
+    "name": "Rhetorische Kommunikation f\u00fcr IngenieurInnen (M_RKI / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/25661_M_RKI.html",
+    "category": "Kommunikation und Englisch (I_KomEng):"
+  },
+  {
+    "name": "Analysis 1 f\u00fcr Informatiker (M_An1I / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/28151_M_An1I.html",
+    "category": "Mathematik und Physik (Kat_MaPh):"
+  },
+  {
+    "name": "Analysis 2 f\u00fcr Informatik (M_An2I / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/28156_M_An2I.html",
+    "category": "Mathematik und Physik (Kat_MaPh):"
+  },
+  {
+    "name": "Experimentieren und Evaluieren f\u00fcr Informatik (M_ExEv / I)",
+    "url": "https://studien.rj.ost.ch/allModules/24381_M_ExEv.html",
+    "category": "Mathematik und Physik (Kat_MaPh):"
+  },
+  {
+    "name": "Funktionen mehrerer Variablen (M_FuVar / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/10942_M_FuVar.html",
+    "category": "Mathematik und Physik (Kat_MaPh):"
+  },
+  {
+    "name": "Integraltransformationen (M_IntTra / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/15367_M_IntTra.html",
+    "category": "Mathematik und Physik (Kat_MaPh):"
+  },
+  {
+    "name": "Komplexe Zahlen und Fourierreihen (M_KomFou1 / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/15546_M_KomFou1.html",
+    "category": "Mathematik und Physik (Kat_MaPh):"
+  },
+  {
+    "name": "Mathematical Foundations for Machine Learning (M_MathFML / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/31614_M_MathFML.html",
+    "category": "Mathematik und Physik (Kat_MaPh):"
+  },
+  {
+    "name": "Mathematik und Physik (M_KatMaPhys / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/39799_M_KatMaPhys.html",
+    "category": "Mathematik und Physik (Kat_MaPh):"
+  },
+  {
+    "name": "Mathematik und Physik 2 (M_KatMaPhys2 / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/40451_M_KatMaPhys2.html",
+    "category": "Mathematik und Physik (Kat_MaPh):"
+  },
+  {
+    "name": "Naturwissenschaftliches Praktikum (M_NwP / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/28732_M_NwP.html",
+    "category": "Mathematik und Physik (Kat_MaPh):"
+  },
+  {
+    "name": "Physik 1 (M_Ph1Mech / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/11043_M_Ph1Mech.html",
+    "category": "Mathematik und Physik (Kat_MaPh):"
+  },
+  {
+    "name": "Physik 2 (M_Ph2HAT / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/22021_M_Ph2HAT.html",
+    "category": "Mathematik und Physik (Kat_MaPh):"
+  },
+  {
+    "name": "Physik 3 (M_Ph3SWO / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/20825_M_Ph3SWO.html",
+    "category": "Mathematik und Physik (Kat_MaPh):"
+  },
+  {
+    "name": "Physik Anwendungen f\u00fcr Informatik (M_PhAI / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/36992_M_PhAI.html",
+    "category": "Mathematik und Physik (Kat_MaPh):"
+  },
+  {
+    "name": "Wahrscheinlichkeitsrechnung und Statistik (M_WrStat / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/24489_M_WrStat.html",
+    "category": "Mathematik und Physik (Kat_MaPh):"
+  },
+  {
+    "name": "AI Foundations (M_AIFo / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38784_M_AIFo.html",
+    "category": "Rahmenausbildung (Kat_RA):"
+  },
+  {
+    "name": "Algorithmen und Datenstrukturen (M_AlgDat / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38881_M_AlgDat.html",
+    "category": "Rahmenausbildung (Kat_RA):"
+  },
+  {
+    "name": "Automaten und Sprachen (M_AutoSpr / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/24404_M_AutoSpr.html",
+    "category": "Rahmenausbildung (Kat_RA):"
+  },
+  {
+    "name": "Automatisierung mit Python (M_AutPy / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38879_M_AutPy.html",
+    "category": "Rahmenausbildung (Kat_RA):"
+  },
+  {
+    "name": "Betriebssysteme 1 (M_Bsys1 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39080_M_Bsys1.html",
+    "category": "Rahmenausbildung (Kat_RA):"
+  },
+  {
+    "name": "Computernetze 1 (M_CN1 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39084_M_CN1.html",
+    "category": "Rahmenausbildung (Kat_RA):"
+  },
+  {
+    "name": "Cyber Security Foundations (M_CySec / I)",
+    "url": "https://studien.rj.ost.ch/allModules/36478_M_CySec.html",
+    "category": "Rahmenausbildung (Kat_RA):"
+  },
+  {
+    "name": "Datenbanksysteme 1 (M_Dbs1 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39093_M_Dbs1.html",
+    "category": "Rahmenausbildung (Kat_RA):"
+  },
+  {
+    "name": "Digitale Codierungen (M_DigCod / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38920_M_DigCod.html",
+    "category": "Rahmenausbildung (Kat_RA):"
+  },
+  {
+    "name": "Diskrete Mathematik f\u00fcr Informatik  (M_DMI / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/24442_M_DMI.html",
+    "category": "Rahmenausbildung (Kat_RA):"
+  },
+  {
+    "name": "Functional Programming  (M_FP / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39143_M_FP.html",
+    "category": "Rahmenausbildung (Kat_RA):"
+  },
+  {
+    "name": "Funktionale Programmierung (M_FunProg / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38928_M_FunProg.html",
+    "category": "Rahmenausbildung (Kat_RA):"
+  },
+  {
+    "name": "Objektorientierte Programmierung 1 (M_OOP1 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38872_M_OOP1.html",
+    "category": "Rahmenausbildung (Kat_RA):"
+  },
+  {
+    "name": "Objektorientierte Programmierung 2 (M_OOP2 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38910_M_OOP2.html",
+    "category": "Rahmenausbildung (Kat_RA):"
+  },
+  {
+    "name": "Rahmen Informatik (M_KatRahmenInf / I)",
+    "url": "https://studien.rj.ost.ch/allModules/40619_M_KatRahmenInf.html",
+    "category": "Rahmenausbildung (Kat_RA):"
+  },
+  {
+    "name": "Web Engineering 1 (M_WE1 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/38891_M_WE1.html",
+    "category": "Rahmenausbildung (Kat_RA):"
+  },
+  {
+    "name": "Bachelor-Arbeit Informatik (M_BAI14 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/24809_M_BAI14.html",
+    "category": "Studien- Bachelorarbeit (I_SaBa):"
+  },
+  {
+    "name": "Studienarbeit Informatik (M_SAI21 / I)",
+    "url": "https://studien.rj.ost.ch/allModules/39016_M_SAI21.html",
+    "category": "Studien- Bachelorarbeit (I_SaBa):"
+  },
+  {
+    "name": "Chinesisch 1 (M_Chin1 / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/28063_M_Chin1.html",
+    "category": "ohne Kategorie:"
+  },
+  {
+    "name": "Chinesisch 2 (M_Chinese2 / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/36024_M_Chinese2.html",
+    "category": "ohne Kategorie:"
+  },
+  {
+    "name": "Computer Engineering 1 (M_ComEng1 / E)",
+    "url": "https://studien.rj.ost.ch/allModules/25232_M_ComEng1.html",
+    "category": "ohne Kategorie:"
+  },
+  {
+    "name": "Computer Engineering 2 (M_ComEng2 / E)",
+    "url": "https://studien.rj.ost.ch/allModules/23345_M_ComEng2.html",
+    "category": "ohne Kategorie:"
+  },
+  {
+    "name": "Franz\u00f6sisch Kommunikation  (M_FranzKomm / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/36421_M_FranzKomm.html",
+    "category": "ohne Kategorie:"
+  },
+  {
+    "name": "Franz\u00f6sisch Kommunikation 2 (M_FranzKomm2 / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/38868_M_FranzKomm2.html",
+    "category": "ohne Kategorie:"
+  },
+  {
+    "name": "Innovation 2 (M_Inno2 / M)",
+    "url": "https://studien.rj.ost.ch/allModules/20110_M_Inno2.html",
+    "category": "ohne Kategorie:"
+  },
+  {
+    "name": "Italienisch 1 (M_Ital1 / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/36015_M_Ital1.html",
+    "category": "ohne Kategorie:"
+  },
+  {
+    "name": "Italienisch 2 (M_Ital2 / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/36011_M_Ital2.html",
+    "category": "ohne Kategorie:"
+  },
+  {
+    "name": "Japanisch 1 (M_Jap1 / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/28088_M_Jap1.html",
+    "category": "ohne Kategorie:"
+  },
+  {
+    "name": "Japanisch 2 (M_Jap2 / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/28093_M_Jap2.html",
+    "category": "ohne Kategorie:"
+  },
+  {
+    "name": "Mathematisches Seminar 1 (M_MathSem1 / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/31274_M_MathSem1.html",
+    "category": "ohne Kategorie:"
+  },
+  {
+    "name": "Mathematisches Seminar 2 (M_MathSem2 / MN)",
+    "url": "https://studien.rj.ost.ch/allModules/24089_M_MathSem2.html",
+    "category": "ohne Kategorie:"
+  },
+  {
+    "name": "Python (M_Python / E)",
+    "url": "https://studien.rj.ost.ch/allModules/32149_M_Python.html",
+    "category": "ohne Kategorie:"
+  },
+  {
+    "name": "SP-Smart Products (M_SPPRODUCTS / WING)",
+    "url": "https://studien.rj.ost.ch/allModules/35903_M_SPPRODUCTS.html",
+    "category": "ohne Kategorie:"
+  },
+  {
+    "name": "Spanisch 1 (M_Span1 / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/28097_M_Span1.html",
+    "category": "ohne Kategorie:"
+  },
+  {
+    "name": "Spanisch 2 (M_Span2 / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/28102_M_Span2.html",
+    "category": "ohne Kategorie:"
+  },
+  {
+    "name": "Workshop \"Lern-Support an der OST\" (M_WSLS / KG)",
+    "url": "https://studien.rj.ost.ch/allModules/32766_M_WSLS.html",
+    "category": "ohne Kategorie:"
+  }
+]
