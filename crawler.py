@@ -2,6 +2,7 @@ import requests
 import json
 import os
 from lxml import html
+from itertools import groupby
 
 BASE_URL = 'https://studien.rj.ost.ch/'
 OUTPUT_DIRECTORY = 'data'
@@ -11,7 +12,7 @@ content = requests.get(f'{BASE_URL}allStudies/10191_I.html').content
 tree = html.fromstring(content)
 
 categories = []
-modules = []
+modules = {}
 
 for category in tree.xpath('//h3[contains(text(),"Zugeordnete Module")]/following-sibling::div'):
     category_title = category.xpath('.//h5/text()')[0][:-1]
@@ -20,21 +21,27 @@ for category in tree.xpath('//h3[contains(text(),"Zugeordnete Module")]/followin
 
     categories.append(category_title)
 
-    modules.extend([{
-        "name": name,
-        "url": url,
-        "category": category_title,
-    } for (name, url) in zip(module_names, module_urls)])
+    for (name, url) in zip(module_names, module_urls):
+        if name in modules:
+            modules[name]['categories'].append(category_title)
+        else:
+            modules[name] = {
+                'name': name,
+                'url': url,
+                'categories': [category_title],
+                'ects': None,
+                'focuses': [],
+            }
 
 
-for module in modules:
+for module_name,module in modules.items():
     try:
         print('Fetching details for module', module['name'])
 
         details_page = requests.get(module['url']).content
         module_tree = html.fromstring(details_page)
 
-        module['ects'] = int(module_tree.xpath('//h5[contains(text(),"ECTS-Punkte")]/../following-sibling::div/div/text()')[0])
+        modules[module_name]['ects'] = int(module_tree.xpath('//h5[contains(text(),"ECTS-Punkte")]/../following-sibling::div/div/text()')[0])
     except:
         pass
 
@@ -52,6 +59,8 @@ for focus in focuses:
     focus_tree = html.fromstring(details_page)
 
     focus['modules'] = focus_tree.xpath('//h3[contains(text(),"Zugeordnete Module")]/following-sibling::div//a/text()')
+    for module in focus['modules']:
+        modules[module]['focuses'].append(focus['name'])
 
 
 if not os.path.exists(OUTPUT_DIRECTORY):
