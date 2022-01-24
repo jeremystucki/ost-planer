@@ -14,7 +14,7 @@ categories = []
 modules = []
 
 for category in tree.xpath('//h3[contains(text(),"Zugeordnete Module")]/following-sibling::div'):
-    category_title = category.xpath('.//h5/text()')[0]
+    category_title = category.xpath('.//h5/text()')[0][:-1]
     module_names = category.xpath('.//a/text()')
     module_urls = [BASE_URL + url for url in category.xpath('.//a/@href')]
 
