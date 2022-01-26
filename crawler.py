@@ -11,45 +11,51 @@ OUTPUT_DIRECTORY = 'data'
 content = requests.get(f'{BASE_URL}allStudies/10191_I.html').content
 tree = html.fromstring(content)
 
-categories = []
 modules = {}
+categories = {}
+focuses = []
 
 for category in tree.xpath('//h3[contains(text(),"Zugeordnete Module")]/following-sibling::div'):
-    category_title = category.xpath('.//h5/text()')[0][:-1]
+    category_name = category.xpath('.//h5/text()')[0][:-1]
+
     module_names = category.xpath('.//a/text()')
     module_urls = [BASE_URL + url for url in category.xpath('.//a/@href')]
 
-    categories.append(category_title)
+    if category_name not in categories and category_name != 'ohne Kategorie':
+        categories[category_name] = {
+            'name': category_name,
+            'modules': [],
+        }
 
     for (name, url) in zip(module_names, module_urls):
-        if name in modules:
-            modules[name]['categories'].append(category_title)
-        else:
+        if name not in modules and not 'Lern-Support' in name:
             modules[name] = {
                 'name': name,
                 'url': url,
-                'categories': [category_title],
+                'categories': [],
                 'ects': None,
                 'focuses': [],
             }
+        
+        if category_name in categories:
+            modules[name]['categories'].append(category_name)
+            categories[category_name]['modules'].append(name)
 
 
 for module_name,module in modules.items():
-    try:
-        print('Fetching details for module', module['name'])
+    print('Fetching details for module', module['name'])
 
-        details_page = requests.get(module['url']).content
-        module_tree = html.fromstring(details_page)
+    details_page = requests.get(module['url']).content
+    module_tree = html.fromstring(details_page)
 
-        modules[module_name]['ects'] = int(module_tree.xpath('//h5[contains(text(),"ECTS-Punkte")]/../following-sibling::div/div/text()')[0])
-    except:
-        pass
+    modules[module_name]['ects'] = int(module_tree.xpath('//h5[contains(text(),"ECTS-Punkte")]/../following-sibling::div/div/text()')[0])
 
 
-focuses = [{
+for focus in tree.xpath('//h5[contains(text(),"Vertiefungen")]/../following-sibling::div//a'):
+    focuses.append({
     'name': focus.xpath('./text()')[0],
-    'url': BASE_URL + focus.xpath('./@href')[0]
-} for focus in tree.xpath('//h5[contains(text(),"Vertiefungen")]/../following-sibling::div//a')]
+    'url': BASE_URL + focus.xpath('./@href')[0],
+})
 
 
 for focus in focuses:
@@ -61,6 +67,10 @@ for focus in focuses:
     focus['modules'] = focus_tree.xpath('//h3[contains(text(),"Zugeordnete Module")]/following-sibling::div//a/text()')
     for module in focus['modules']:
         modules[module]['focuses'].append(focus['name'])
+
+
+modules = list(modules.values())
+categories = list(categories.values())
 
 
 if not os.path.exists(OUTPUT_DIRECTORY):
