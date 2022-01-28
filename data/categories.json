@@ -42,7 +42,9 @@
       "Web Engineering 3 (M_WE3 / I)",
       "Wireless and IoT (M_WsoT / I)",
       "Wireless and IoT (M_WIoT / I)"
-    ]
+    ],
+    "required_ects": "48",
+    "total_ects": "146"
   },
   {
     "name": "Engineering Practice (I_EP)",
@@ -52,7 +54,9 @@
       "SE Project (M_SEProj / I)",
       "Software-Engineering 1 (M_SE1 / I)",
       "Software-Engineering 2 (M_SE2 / I)"
-    ]
+    ],
+    "required_ects": "12",
+    "total_ects": "12"
   },
   {
     "name": "Gesellschaft, Wirtschaft und Recht (I-gwr)",
@@ -65,7 +69,9 @@
       "Projekt- und Qualit\u00e4tsmanagement (M_PmQm / I)",
       "Volkswirtschaft und Technikgeschichte (M_VwlTg / KG)",
       "Wirtschaftsinformatik 2: Gesch\u00e4ftsprozessmanagement (M_WI2 / I)"
-    ]
+    ],
+    "required_ects": "12",
+    "total_ects": "24"
   },
   {
     "name": "Informatik (I_Inf)",
@@ -132,7 +138,9 @@
       "Web Engineering 3 (M_WE3 / I)",
       "Wireless and IoT (M_WsoT / I)",
       "Wireless and IoT (M_WIoT / I)"
-    ]
+    ],
+    "required_ects": "136",
+    "total_ects": "234"
   },
   {
     "name": "Kommunikation und Englisch (I_KomEng)",
@@ -147,7 +155,9 @@
       "Kommunikation und Sprache 2 (M_KatKoSpra2 / KG)",
       "Rhetorische Kommunikation f\u00fcr IngenieurInnen (M_RheKI / KG)",
       "Rhetorische Kommunikation f\u00fcr IngenieurInnen (M_RKI / KG)"
-    ]
+    ],
+    "required_ects": "12",
+    "total_ects": "28"
   },
   {
     "name": "Mathematik und Physik (Kat_MaPh)",
@@ -167,7 +177,9 @@
       "Physik 3 (M_Ph3SWO / MN)",
       "Physik Anwendungen f\u00fcr Informatik (M_PhAI / MN)",
       "Wahrscheinlichkeitsrechnung und Statistik (M_WrStat / MN)"
-    ]
+    ],
+    "required_ects": "16",
+    "total_ects": "50"
   },
   {
     "name": "Rahmenausbildung (Kat_RA)",
@@ -188,13 +200,17 @@
       "Objektorientierte Programmierung 2 (M_OOP2 / I)",
       "Rahmen Informatik (M_KatRahmenInf / I)",
       "Web Engineering 1 (M_WE1 / I)"
-    ]
+    ],
+    "required_ects": "46",
+    "total_ects": "56"
   },
   {
     "name": "Studien- Bachelorarbeit (I_SaBa)",
     "modules": [
       "Bachelor-Arbeit Informatik (M_BAI14 / I)",
       "Studienarbeit Informatik (M_SAI21 / I)"
-    ]
+    ],
+    "required_ects": "20",
+    "total_ects": "20"
   }
 ]

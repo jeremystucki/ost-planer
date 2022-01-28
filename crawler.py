@@ -21,10 +21,13 @@ for category in tree.xpath('//h3[contains(text(),"Zugeordnete Module")]/followin
     module_names = category.xpath('.//a/text()')
     module_urls = [BASE_URL + url for url in category.xpath('.//a/@href')]
 
-    if category_name not in categories and category_name != 'ohne Kategorie':
+    if category_name != 'ohne Kategorie':
+        (required_ects, _, total_ects) = category.xpath('.//p/text()')[0].partition('/')
         categories[category_name] = {
             'name': category_name,
             'modules': [],
+            'required_ects': required_ects,
+            'total_ects': total_ects,
         }
 
     for (name, url) in zip(module_names, module_urls):
