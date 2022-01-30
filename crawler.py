@@ -1,11 +1,13 @@
 import requests
 import json
 import os
+import re
 from lxml import html
 from itertools import groupby
 
 BASE_URL = 'https://studien.rj.ost.ch/'
 OUTPUT_DIRECTORY = 'data'
+ID_PATTERN = re.compile('\(M_(\w*)')
 
 
 content = requests.get(f'{BASE_URL}allStudies/10191_I.html').content
@@ -33,6 +35,7 @@ for category in tree.xpath('//h3[contains(text(),"Zugeordnete Module")]/followin
     for (name, url) in zip(module_names, module_urls):
         if name not in modules and not 'Lern-Support' in name:
             modules[name] = {
+                'id': ID_PATTERN.search(name).group(1),
                 'name': name,
                 'url': url,
                 'categories': [],
