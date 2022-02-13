@@ -7,8 +7,8 @@ from itertools import groupby
 
 BASE_URL = 'https://studien.rj.ost.ch/'
 OUTPUT_DIRECTORY = 'data'
-ID_PATTERN = re.compile('\(M_(\w*)')
-
+MODULE_PATTERN = re.compile('(.*) \(M_(.*) \/.*')
+CATEGORY_PATTERN = re.compile('(.*) \(.*[_-](.*)\)')
 
 content = requests.get(f'{BASE_URL}allStudies/10191_I.html').content
 tree = html.fromstring(content)
@@ -18,50 +18,56 @@ categories = {}
 focuses = []
 
 for category in tree.xpath('//h3[contains(text(),"Zugeordnete Module")]/following-sibling::div'):
-    category_name = category.xpath('.//h5/text()')[0][:-1]
+    category_fullname = category.xpath('.//h5/text()')[0][:-1]
 
-    module_names = category.xpath('.//a/text()')
+    module_fullnames = category.xpath('.//a/text()')
     module_urls = [BASE_URL + url for url in category.xpath('.//a/@href')]
 
-    if category_name != 'ohne Kategorie':
+    (category_name, category_id) = CATEGORY_PATTERN.search(category_fullname).groups() if category_fullname != 'ohne Kategorie' else (None, None)
+
+    if category_name is not None:
         (required_ects, _, total_ects) = category.xpath('.//p/text()')[0].partition('/')
         categories[category_name] = {
+            'id': category_id,
             'name': category_name,
             'modules': [],
             'required_ects': required_ects,
             'total_ects': total_ects,
         }
 
-    for (name, url) in zip(module_names, module_urls):
-        if name not in modules and not 'Lern-Support' in name:
-            modules[name] = {
-                'id': ID_PATTERN.search(name).group(1),
-                'name': name,
+    for (fullname, url) in zip(module_fullnames, module_urls):
+        (module_name, module_id) = MODULE_PATTERN.search(fullname).groups()
+
+        if fullname not in modules and not 'Lern-Support' in fullname:
+            modules[module_id] = {
+                'id': module_id,
+                'name': module_name,
                 'url': url,
                 'categories': [],
                 'ects': None,
                 'focuses': [],
             }
-        
+
         if category_name in categories:
-            modules[name]['categories'].append(category_name)
-            categories[category_name]['modules'].append(name)
+            modules[module_id]['categories'].append(category_id)
+            categories[category_name]['modules'].append(module_id)
 
 
-for module_name,module in modules.items():
+for module_id,module in modules.items():
     print('Fetching details for module', module['name'])
 
     details_page = requests.get(module['url']).content
     module_tree = html.fromstring(details_page)
 
-    modules[module_name]['ects'] = int(module_tree.xpath('//h5[contains(text(),"ECTS-Punkte")]/../following-sibling::div/div/text()')[0])
+    modules[module_id]['ects'] = int(module_tree.xpath('//h5[contains(text(),"ECTS-Punkte")]/../following-sibling::div/div/text()')[0])
 
 
 for focus in tree.xpath('//h5[contains(text(),"Vertiefungen")]/../following-sibling::div//a'):
     focuses.append({
-    'name': focus.xpath('./text()')[0],
-    'url': BASE_URL + focus.xpath('./@href')[0],
-})
+        'name': focus.xpath('./text()')[0].replace(' STD_21 (Profil)', ''),
+        'url': BASE_URL + focus.xpath('./@href')[0],
+        'modules': [],
+    })
 
 
 for focus in focuses:
@@ -70,9 +76,12 @@ for focus in focuses:
     details_page = requests.get(focus['url']).content
     focus_tree = html.fromstring(details_page)
 
-    focus['modules'] = focus_tree.xpath('//h3[contains(text(),"Zugeordnete Module")]/following-sibling::div//a/text()')
-    for module in focus['modules']:
-        modules[module]['focuses'].append(focus['name'])
+    module_fullnames = focus_tree.xpath('//h3[contains(text(),"Zugeordnete Module")]/following-sibling::div//a/text()')
+    module_name_and_id = [MODULE_PATTERN.search(module_fullname).groups() for module_fullname in module_fullnames]
+
+    for module_name, module_id in module_name_and_id:
+        focus['modules'].append(module_id)
+        modules[module_id]['focuses'].append(focus['name'])
 
 
 modules = list(modules.values())
