@@ -10,7 +10,7 @@ OUTPUT_DIRECTORY = 'data'
 MODULE_PATTERN = re.compile('(.*) \(M_(.*) \/.*')
 CATEGORY_PATTERN = re.compile('(.*) \(.*[_-](.*)\)')
 
-EXCLUDED_MODULES = ['SecSW', 'WSLS']
+EXCLUDED_MODULES = ['SecSW', 'WSLS', 'WIoT']
 
 content = requests.get(f'{BASE_URL}allStudies/10191_I.html').content
 tree = html.fromstring(content)

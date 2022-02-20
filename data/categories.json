@@ -40,8 +40,7 @@
       "SModSim",
       "WE2",
       "WE3",
-      "WsoT",
-      "WIoT"
+      "WsoT"
     ],
     "required_ects": "48",
     "total_ects": "146"
@@ -138,8 +137,7 @@
       "WE1",
       "WE2",
       "WE3",
-      "WsoT",
-      "WIoT"
+      "WsoT"
     ],
     "required_ects": "136",
     "total_ects": "234"

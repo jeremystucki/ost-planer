@@ -451,18 +451,6 @@
     ]
   },
   {
-    "id": "WIoT",
-    "name": "Wireless and IoT",
-    "url": "https://studien.rj.ost.ch/allModules/37157_M_WIoT.html",
-    "categories": [
-      "Inf"
-    ],
-    "ects": 4,
-    "focuses": [
-      "Network and Cloud Infrastructure"
-    ]
-  },
-  {
     "id": "SEP1",
     "name": "SE Practices 1",
     "url": "https://studien.rj.ost.ch/allModules/39203_M_SEP1.html",
