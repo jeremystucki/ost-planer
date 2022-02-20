@@ -10,6 +10,8 @@ OUTPUT_DIRECTORY = 'data'
 MODULE_PATTERN = re.compile('(.*) \(M_(.*) \/.*')
 CATEGORY_PATTERN = re.compile('(.*) \(.*[_-](.*)\)')
 
+EXCLUDED_MODULES = ['SecSW', 'WSLS']
+
 content = requests.get(f'{BASE_URL}allStudies/10191_I.html').content
 tree = html.fromstring(content)
 
@@ -38,7 +40,7 @@ for category in tree.xpath('//h3[contains(text(),"Zugeordnete Module")]/followin
     for (fullname, url) in zip(module_fullnames, module_urls):
         (module_name, module_id) = MODULE_PATTERN.search(fullname).groups()
 
-        if fullname not in modules and not 'Lern-Support' in fullname:
+        if fullname not in modules and not module_id in EXCLUDED_MODULES:
             modules[module_id] = {
                 'id': module_id,
                 'name': module_name,
@@ -48,7 +50,7 @@ for category in tree.xpath('//h3[contains(text(),"Zugeordnete Module")]/followin
                 'focuses': [],
             }
 
-        if category_name in categories:
+        if category_name in categories and module_id in modules:
             modules[module_id]['categories'].append(category_id)
             categories[category_name]['modules'].append(module_id)
 
@@ -80,6 +82,9 @@ for focus in focuses:
     module_name_and_id = [MODULE_PATTERN.search(module_fullname).groups() for module_fullname in module_fullnames]
 
     for module_name, module_id in module_name_and_id:
+        if module_id in EXCLUDED_MODULES:
+            continue
+
         focus['modules'].append(module_id)
         modules[module_id]['focuses'].append(focus['name'])
 

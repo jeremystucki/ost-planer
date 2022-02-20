@@ -368,19 +368,6 @@
     ]
   },
   {
-    "id": "SecSW",
-    "name": "Secure Software",
-    "url": "https://studien.rj.ost.ch/allModules/36488_M_SecSW.html",
-    "categories": [
-      "Inf"
-    ],
-    "ects": 4,
-    "focuses": [
-      "Software Engineering",
-      "Cybersecurity"
-    ]
-  },
-  {
     "id": "ServDev",
     "name": "Service Development (ITIL)",
     "url": "https://studien.rj.ost.ch/allModules/37171_M_ServDev.html",
