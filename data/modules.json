@@ -14,7 +14,7 @@
   {
     "id": "AIAp",
     "name": "AI Applications",
-    "url": "https://studien.rj.ost.ch/allModules/38785_M_AIAp.html",
+    "url": "https://studien.rj.ost.ch/allModules/40870_M_AIAp.html",
     "categories": [
       "Inf"
     ],
@@ -463,7 +463,7 @@
   {
     "id": "SEP2",
     "name": "SE Practices 2",
-    "url": "https://studien.rj.ost.ch/allModules/39000_M_SEP2.html",
+    "url": "https://studien.rj.ost.ch/allModules/40859_M_SEP2.html",
     "categories": [
       "Inf"
     ],
@@ -551,6 +551,16 @@
     "focuses": []
   },
   {
+    "id": "KatGWR3",
+    "name": "Gesellschaft, Wirtschaft und Recht 3",
+    "url": "https://studien.rj.ost.ch/allModules/17161_M_KatGWR3.html",
+    "categories": [
+      "gwr"
+    ],
+    "ects": 16,
+    "focuses": []
+  },
+  {
     "id": "PmQm",
     "name": "Projekt- und Qualit\u00e4tsmanagement",
     "url": "https://studien.rj.ost.ch/allModules/28231_M_PmQm.html",
@@ -583,7 +593,7 @@
   {
     "id": "AIFo",
     "name": "AI Foundations",
-    "url": "https://studien.rj.ost.ch/allModules/38784_M_AIFo.html",
+    "url": "https://studien.rj.ost.ch/allModules/40866_M_AIFo.html",
     "categories": [
       "RA"
     ],
@@ -852,7 +862,7 @@
   },
   {
     "id": "An1I",
-    "name": "Analysis 1 f\u00fcr Informatiker",
+    "name": "Analysis 1 f\u00fcr Informatik",
     "url": "https://studien.rj.ost.ch/allModules/28151_M_An1I.html",
     "categories": [
       "MaPh"
@@ -940,6 +950,16 @@
       "MaPh"
     ],
     "ects": 10,
+    "focuses": []
+  },
+  {
+    "id": "KatMaPhys3",
+    "name": "Mathematik und Physik 3",
+    "url": "https://studien.rj.ost.ch/allModules/40687_M_KatMaPhys3.html",
+    "categories": [
+      "MaPh"
+    ],
+    "ects": 8,
     "focuses": []
   },
   {
