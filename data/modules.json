@@ -501,6 +501,26 @@
     "focuses": []
   },
   {
+    "id": "BuPro",
+    "name": "Business Processes f\u00fcr Informatik",
+    "url": "https://studien.rj.ost.ch/allModules/40825_M_BuPro.html",
+    "categories": [
+      "gwr"
+    ],
+    "ects": 4,
+    "focuses": []
+  },
+  {
+    "id": "WI2",
+    "name": "Business Processes f\u00fcr Informatik",
+    "url": "https://studien.rj.ost.ch/allModules/40981_M_WI2.html",
+    "categories": [
+      "gwr"
+    ],
+    "ects": 4,
+    "focuses": []
+  },
+  {
     "id": "BuRe1",
     "name": "Business und Recht 1",
     "url": "https://studien.rj.ost.ch/allModules/20780_M_BuRe1.html",
@@ -574,16 +594,6 @@
     "id": "VwlTg",
     "name": "Volkswirtschaft und Technikgeschichte",
     "url": "https://studien.rj.ost.ch/allModules/24472_M_VwlTg.html",
-    "categories": [
-      "gwr"
-    ],
-    "ects": 4,
-    "focuses": []
-  },
-  {
-    "id": "WI2",
-    "name": "Wirtschaftsinformatik 2: Gesch\u00e4ftsprozessmanagement",
-    "url": "https://studien.rj.ost.ch/allModules/24453_M_WI2.html",
     "categories": [
       "gwr"
     ],
@@ -753,7 +763,7 @@
   {
     "id": "SAI21",
     "name": "Studienarbeit Informatik",
-    "url": "https://studien.rj.ost.ch/allModules/39016_M_SAI21.html",
+    "url": "https://studien.rj.ost.ch/allModules/40906_M_SAI21.html",
     "categories": [
       "SaBa"
     ],

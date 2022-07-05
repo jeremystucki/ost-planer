@@ -62,6 +62,8 @@
     "id": "gwr",
     "name": "Gesellschaft, Wirtschaft und Recht",
     "modules": [
+      "BuPro",
+      "WI2",
       "BuRe1",
       "BuRe2a",
       "DigBusI",
@@ -69,11 +71,10 @@
       "KatGWR2",
       "KatGWR3",
       "PmQm",
-      "VwlTg",
-      "WI2"
+      "VwlTg"
     ],
     "required_ects": "12",
-    "total_ects": "24"
+    "total_ects": "28"
   },
   {
     "id": "Inf",
