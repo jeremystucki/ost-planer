@@ -21,8 +21,8 @@
       "AppArch",
       "CldSol",
       "ComGra",
-      "HCD",
       "MGE",
+      "UX",
       "WE2",
       "WE3"
     ]
@@ -48,11 +48,11 @@
       "CldInf",
       "CldOp",
       "CN2",
+      "DSy",
       "NISec",
       "NetAut",
-      "ServDev",
       "SDW",
-      "WsoT"
+      "WE2"
     ]
   },
   {

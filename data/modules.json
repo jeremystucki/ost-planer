@@ -222,7 +222,8 @@
     ],
     "ects": 4,
     "focuses": [
-      "Software Engineering"
+      "Software Engineering",
+      "Network and Cloud Infrastructure"
     ]
   },
   {
@@ -235,18 +236,6 @@
     "ects": 2,
     "focuses": [
       "Cybersecurity"
-    ]
-  },
-  {
-    "id": "HCD",
-    "name": "Human Computer Interaction Design",
-    "url": "https://studien.rj.ost.ch/allModules/32684_M_HCD.html",
-    "categories": [
-      "Inf"
-    ],
-    "ects": 4,
-    "focuses": [
-      "Frontend Engineering"
     ]
   },
   {
@@ -375,9 +364,7 @@
       "Inf"
     ],
     "ects": 4,
-    "focuses": [
-      "Network and Cloud Infrastructure"
-    ]
+    "focuses": []
   },
   {
     "id": "SDW",
@@ -414,6 +401,18 @@
     "focuses": []
   },
   {
+    "id": "UX",
+    "name": "User Experience",
+    "url": "https://studien.rj.ost.ch/allModules/41106_M_UX.html",
+    "categories": [
+      "Inf"
+    ],
+    "ects": 4,
+    "focuses": [
+      "Frontend Engineering"
+    ]
+  },
+  {
     "id": "WE2",
     "name": "Web Engineering 2",
     "url": "https://studien.rj.ost.ch/allModules/38945_M_WE2.html",
@@ -423,7 +422,8 @@
     "ects": 4,
     "focuses": [
       "Frontend Engineering",
-      "Cybersecurity"
+      "Cybersecurity",
+      "Network and Cloud Infrastructure"
     ]
   },
   {
@@ -446,9 +446,7 @@
       "Inf"
     ],
     "ects": 4,
-    "focuses": [
-      "Network and Cloud Infrastructure"
-    ]
+    "focuses": []
   },
   {
     "id": "SEP1",
@@ -1118,6 +1116,22 @@
     "url": "https://studien.rj.ost.ch/allModules/28093_M_Jap2.html",
     "categories": [],
     "ects": 2,
+    "focuses": []
+  },
+  {
+    "id": "KatAufInf",
+    "name": "Kat_AufbauInformatik2",
+    "url": "https://studien.rj.ost.ch/allModules/41364_M_KatAufInf.html",
+    "categories": [],
+    "ects": 8,
+    "focuses": []
+  },
+  {
+    "id": "KatAufInf2",
+    "name": "Kat_AufbauInformatik2.0",
+    "url": "https://studien.rj.ost.ch/allModules/41365_M_KatAufInf2.html",
+    "categories": [],
+    "ects": 4,
     "focuses": []
   },
   {
